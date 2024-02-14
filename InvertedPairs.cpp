@@ -29,7 +29,7 @@ int merge(vector<int> &nums, int left, int mid, int right, vector<int> &temp)
         temp[k++] = nums[j++];
     }
 
-    for (int i = 0; i <= right; i++)
+    for (int i = left; i <= right; i++)
     {
         nums[i] = temp[i];
     }

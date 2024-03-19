@@ -19,6 +19,8 @@
         "regex": "cpp",
         "valarray": "cpp",
         "bitset": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "chrono": "cpp",
+        "complex": "cpp"
     }
 }

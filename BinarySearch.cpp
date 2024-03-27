@@ -20,7 +20,7 @@ int main()
             }
         }
 
-        int left = 1;
+        int left = 1;̥
         int right = n + 1;
         while (left < right - 1)
         {

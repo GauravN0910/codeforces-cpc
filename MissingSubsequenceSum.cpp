@@ -11,9 +11,9 @@ int main(){
 
         if(k==1){
             ans.push_back(3);
-            for(int i=1;i<25;i++){
+            for(int i=1;i<22;i++){
                 ans.push_back((1<<i));
-                if((1<<i)>n||ans.size()==25){
+                if((1<<i)>n||ans.size()==22){
                     break;
                 }
             }
@@ -23,9 +23,9 @@ int main(){
             ans.push_back(1);
             ans.push_back(3);
             ans.push_back(6);
-            for(int i=2;i<25;i++){
+            for(int i=2;i<22;i++){
                 ans.push_back((1<<i));
-                if((1<<i)>n||ans.size()==25){
+                if((1<<i)>n||ans.size()==22){
                     break;
                 }
             }
@@ -43,9 +43,9 @@ int main(){
             position = log2(k+1);
             position++;
             ans.push_back((1<<position)-1);
-            for(int i=position;i<25;i++){
+            for(int i=position;i<22;i++){
                 ans.push_back((1<<i));
-                if((1<<i)>n||ans.size()==25){
+                if((1<<i)>n||ans.size()==22){
                     break;
                 }
             }

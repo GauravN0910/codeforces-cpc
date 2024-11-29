@@ -21,6 +21,7 @@
         "bitset": "cpp",
         "map": "cpp",
         "chrono": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "random": "cpp"
     }
 }

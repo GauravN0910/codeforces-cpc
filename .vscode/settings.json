@@ -22,6 +22,8 @@
         "map": "cpp",
         "chrono": "cpp",
         "complex": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "algorithm": "cpp",
+        "iosfwd": "cpp"
     }
 }

@@ -9,8 +9,6 @@ struct segtree{
     int size;
     vector<item> values;
 
-
-
     item merge(item a, item b){
         return {
             max({a.seg, b.seg, a.suf+b.pref}),

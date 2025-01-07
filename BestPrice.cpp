@@ -18,7 +18,6 @@ void solve(){
         cin>>negative[i];
     }
 
-
     long long ans = 0;
 
     vector<long long> allVals;

@@ -1,15 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int mod = 1e9 + 7;
+const long long mod = 1e9 + 7;
 
 void solve(){
-    int n, k, p;
-    cin>>n>>k>>p;
-    
-    k = max(k, -k);
-    int ans = ceil((double)k/p);
-    cout<<(ans>n?-1:ans)<<endl;
+    long long k;
+    cin>>k;
+    if((k-1)%3==0){
+        cout<<"YES"<<endl;
+    }
+    else{
+        cout<<"NO"<<endl;
+    }
 }
 
 int main(){
@@ -20,7 +22,7 @@ int main(){
     freopen("output.txt" , "w" , stdout);
     #endif
 
-    int t;
+    long long t;
     cin>>t;
     while(t--){
         solve();

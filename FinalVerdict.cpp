@@ -4,12 +4,26 @@ using namespace std;
 const int mod = 1e9 + 7;
 
 void solve(){
-    int n, k, p;
-    cin>>n>>k>>p;
+    int n, x;
+    cin>>n>>x;
+    vector<int> nums(n);
+    for(int i=0;i<n;i++){
+        cin>>nums[i];
+    }
+
+    int sum = 0;
+    for(int i=0;i<n;i++){
+        sum += nums[i];
+    }
     
-    k = max(k, -k);
-    int ans = ceil((double)k/p);
-    cout<<(ans>n?-1:ans)<<endl;
+    if(sum == x * n){
+        cout<<"YES"<<endl;
+        return;
+    }   
+    else{
+        cout<<"NO"<<endl;
+        return;
+    }
 }
 
 int main(){

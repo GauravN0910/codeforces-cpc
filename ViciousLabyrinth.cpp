@@ -4,9 +4,24 @@ using namespace std;
 const int mod = 1e9 + 7;
 
 void solve(){
-    string s;
-    cin>>s;
-    
+    int n, k;
+    cin>>n>>k;
+    vector<int> ans(n+1, 0);
+    ans[n-1] = n;
+    ans[n] = n-1;
+    for(int i=1;i<n-1;i++){
+        if(k%2){
+            ans[i] = n;
+        }
+        else{
+            ans[i] = n-1;
+        }
+    }
+
+    for(int i=1;i<=n;i++){
+        cout<<ans[i]<<" ";
+    }
+    cout<<endl;
 }
 
 int main(){

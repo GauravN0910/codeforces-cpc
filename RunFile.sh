@@ -16,6 +16,7 @@ g++ "$cpp_file" -o a.out
 
 if [ $? -eq 0 ]; then
     ./a.out
+    cat output.txt
 else
     echo "Compilation failed."
     exit 3

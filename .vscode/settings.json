@@ -30,6 +30,8 @@
         "__string": "cpp",
         "filesystem": "cpp",
         "functional": "cpp",
-        "__tree": "cpp"
+        "__tree": "cpp",
+        "tuple": "cpp",
+        "ios": "cpp"
     }
 }

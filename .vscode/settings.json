@@ -32,6 +32,7 @@
         "functional": "cpp",
         "__tree": "cpp",
         "tuple": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "__split_buffer": "cpp"
     }
 }

@@ -33,6 +33,7 @@
         "__tree": "cpp",
         "tuple": "cpp",
         "ios": "cpp",
-        "__split_buffer": "cpp"
+        "__split_buffer": "cpp",
+        "__bit_reference": "cpp"
     }
 }
